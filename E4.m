@@ -1,0 +1,9 @@
+x=zeros(1,21)
+x(6)=1
+z=x
+n=0:20
+m=-5:15
+subplot(3,1,1)
+stem(n,z)
+subplot(3,1,2)
+stem(m,z)
